@@ -49,9 +49,18 @@ h1{
 .start{
     background-color: rgb(0, 179, 0);
 }
+.start:active{
+    background-color: hsl(120, 100%, 45%);
+}
 .stop{
     background-color: rgb(179, 0, 0);
 }
+.stop:active{
+    background-color: hsl(0, 100%, 45%);
+}
 .reset{
     background-color: rgb(221, 203, 0);
+}
+.reset:active{
+    background-color: hsl(55, 100%, 53%);
 }
