@@ -37,4 +37,8 @@ document.addEventListener('keydown', function(event){
             startclock()
         }
     }
+    if(event.code === "KeyR"){
+        event.preventDefault();
+        resetclock();
+    }
 })
