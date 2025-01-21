@@ -24,3 +24,9 @@ function resetclock(){
     secondsElapsed = 0;
     setTime()
 }
+document.addEventListener('keydown', function(event){
+    if(event.code === 'Space'){
+        event.preventDefault();
+        startclock()
+    }
+})
